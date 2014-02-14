@@ -1,0 +1,50 @@
+{
+    "name": "fsi/admin-gallery-bundle",
+    "type": "symfony-bundle",
+    "description": "FSiAdminBundle configuration for fsi/gallery-bundle",
+    "keywords": ["gallery", "photo", "symfony2", "bundle", "fsi", "admin"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Norbert Orzechowicz",
+            "email": "norbert@fsi.pl"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "symfony/framework-bundle": "~2.3",
+        "symfony/twig-bundle": "~2.3",
+        "fsi/doctrine-extensions-bundle": "1.0.*",
+        "liip/imagine-bundle": "0.17.*",
+        "fsi/form-extensions-bundle": "1.0.*",
+        "fsi/admin-bundle" : "1.0.*",
+        "fsi/gallery-bundle": "dev-master"
+    },
+    "require-dev": {
+        "doctrine/doctrine-bundle": "~1.2@dev",
+        "doctrine/orm": "~2.3",
+        "fzaninotto/faker": "v1.3.0",
+        "phpspec/phpspec": "2.0.*@dev",
+        "behat/behat": "2.4.*@stable",
+        "behat/symfony2-extension": "*@stable",
+        "behat/mink-extension": "*",
+        "behat/mink-browserkit-driver": "*",
+        "behat/mink-selenium2-driver": "*",
+        "sensiolabs/behat-page-object-extension": "1.0.*@dev",
+        "bossa/phpspec2-expect": "dev-master"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "autoload": {
+        "psr-0": {
+            "FSi\\Bundle\\AdminGalleryBundle\\": ""
+        }
+    },
+    "target-dir" : "FSi/Bundle/AdminGalleryBundle",
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        }
+    }
+}

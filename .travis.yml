@@ -1,0 +1,15 @@
+language: php
+
+php:
+  - 5.3
+  - 5.4
+  - 5.5
+
+before_install:
+    - sudo apt-get update > /dev/null
+
+script:
+    - composer self-update
+    - composer update -n
+    - ./bin/phpspec run -f pretty
+    - ./bin/behat --no-snippets --no-paths --verbose --format=progress

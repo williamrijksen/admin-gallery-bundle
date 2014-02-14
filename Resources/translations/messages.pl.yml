@@ -1,0 +1,19 @@
+admin:
+  gallery:
+    menu: Galerie
+    form:
+      name:
+        label: Nazwa galerii
+      description:
+        label: Opis galerii
+      visibility:
+        label: Widoczność
+        visible: Widoczna
+        invisible: Niewidoczna
+      photos:
+        add: Dodaj zdjęcie
+        label: Zdjęcia
+    list:
+      name: Nazwa
+      actions: Akcje
+      visible: Widoczna
