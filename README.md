@@ -1,4 +1,3 @@
-admin-gallery-bundle
-====================
+#FSiAdminGalleryBundle
 
-FSiAdminBundle configuration for fsi/gallery-bundle 
+This bundle provide FSiAdminBundle configuration for FSiGalleryBundle.

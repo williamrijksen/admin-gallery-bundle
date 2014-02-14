@@ -1,0 +1,18 @@
+admin:
+  gallery:
+    menu: Galleries
+    form:
+      name:
+        label: Gallery name
+      description:
+        label: Description
+      visibility:
+        label: Visibility
+        visible: Visible
+        invisible: Invisible
+      photos:
+        add: Add photo
+    list:
+      name: Name
+      actions: Actions
+      visible: Visible

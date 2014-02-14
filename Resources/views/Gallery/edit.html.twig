@@ -1,0 +1,6 @@
+{% extends '@FSiAdmin/CRUD/edit.html.twig' %}
+
+{% block javascripts %}
+    {{ parent() }}
+    {% include '@FSiAdminGallery/Gallery/scripts.html.twig' with {'form' : form} %}
+{% endblock %}

@@ -1,0 +1,23 @@
+{% block fsi_admin_gallery_photo_widget %}
+{% spaceless %}
+    <div id="{{ form.vars.id }}" class="photo row">
+        <div class="remove col-lg-1"></div>
+        <div class="form col-lg-11">
+            {{ form_widget(form.photo) }}
+            {{ form_errors(form.photo) }}
+        </div>
+        <hr />
+        <br/>
+    </div>
+{% endspaceless %}
+{% endblock %}
+
+{% block _fsi_admin_gallery_photos_widget %}
+    <div id="photos" data-prototype="{{ form_widget(form.vars.prototype)|e }}">
+        {% for element in form %}
+            {{ form_widget(element) }}
+        {% endfor %}
+    </div>
+    <div></div>
+    <button id="add-photo">{{ 'admin.gallery.form.photos.add'|trans }}</button>
+{% endblock %}
