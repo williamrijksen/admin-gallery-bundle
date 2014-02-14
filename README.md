@@ -13,6 +13,3 @@ Code quality:
 Documentation:
 
 - [Installation](Resources/doc/installation.md)
-- [Templating](Resources/doc/templating.md)
-- [Configuration](Resources/doc/configuration.md)
-- [Image filters](Resources/doc/imagine_filters.md)
