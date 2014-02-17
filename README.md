@@ -2,7 +2,7 @@
 
 This bundle provide FSiAdminBundle configuration for FSiGalleryBundle.
 
-Build Status:
+Build Status:  
 [![Build Status](https://travis-ci.org/fsi-open/admin-gallery-bundle.png?branch=master)](https://travis-ci.org/fsi-open/admin-gallery-bundle) - Master
 
 [![Latest Stable Version](https://poser.pugx.org/fsi/admin-gallery-bundle/v/stable.png)](https://packagist.org/packages/fsi/admin-gallery-bundle)
