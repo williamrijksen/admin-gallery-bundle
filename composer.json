@@ -14,14 +14,14 @@
         "php": ">=5.3.3",
         "symfony/framework-bundle": "~2.3",
         "symfony/twig-bundle": "~2.3",
-        "fsi/doctrine-extensions-bundle": "1.0.*",
-        "liip/imagine-bundle": "0.17.*",
+        "liip/imagine-bundle": "dev-master",
         "fsi/form-extensions-bundle": "1.0.*",
         "fsi/admin-bundle" : "1.0.*",
         "fsi/gallery-bundle": "dev-master"
     },
     "require-dev": {
-        "doctrine/doctrine-bundle": "~1.2@dev",
+        "doctrine/doctrine-bundle": "dev-master",
+        "doctrine/doctrine-cache-bundle": "dev-master",
         "doctrine/orm": "~2.3",
         "fzaninotto/faker": "v1.3.0",
         "phpspec/phpspec": "2.0.*@dev",
