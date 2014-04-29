@@ -9,8 +9,7 @@ Add to composer.json
     "fsi/gallery-bundle": "1.0.*@dev",
     "fsi/admin-gallery-bundle": "1.0.*@dev",
     "liip/imagine-bundle": "0.20.*",
-    "doctrine/doctrine-bundle": "dev-master",
-    "doctrine/doctrine-cache-bundle": "dev-master"
+    "doctrine/doctrine-bundle": "dev-master"
 }
 ```
 
