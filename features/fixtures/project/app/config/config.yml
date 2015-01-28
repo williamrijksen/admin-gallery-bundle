@@ -1,6 +1,6 @@
 framework:
     secret:          this_is_secret
-    translator:      { fallback: en }
+    translator:      { fallback: %locale% }
     router:          { resource: "%kernel.root_dir%/config/routing.yml" }
     templating:      { engines: ['twig'] }
     form:            true
@@ -29,3 +29,5 @@ fsi_gallery:
     gallery_class: FSi\FixturesBundle\Entity\Gallery
     photo_class: FSi\FixturesBundle\Entity\Photo
 
+parameters:
+    locale: en
