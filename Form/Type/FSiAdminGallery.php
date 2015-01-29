@@ -57,7 +57,7 @@ class FSiAdminGallery extends AbstractType
             )
         ));
 
-        $builder->add('description', 'fsi_ckeditor', array(
+        $builder->add('description', 'ckeditor', array(
             'label' => 'admin.gallery.form.description.label'
         ));
 

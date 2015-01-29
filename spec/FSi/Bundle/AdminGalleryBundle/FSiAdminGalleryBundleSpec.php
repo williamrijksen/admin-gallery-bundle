@@ -3,7 +3,6 @@
 namespace spec\FSi\Bundle\AdminGalleryBundle;
 
 use PhpSpec\ObjectBehavior;
-use Prophecy\Argument;
 
 class FSiAdminGalleryBundleSpec extends ObjectBehavior
 {

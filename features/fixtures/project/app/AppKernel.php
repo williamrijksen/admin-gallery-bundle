@@ -13,6 +13,7 @@ class AppKernel extends Kernel
             new Symfony\Bundle\TwigBundle\TwigBundle(),
             new Liip\ImagineBundle\LiipImagineBundle(),
             new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
+            new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
             new FSi\Bundle\DoctrineExtensionsBundle\FSiDoctrineExtensionsBundle(),
 
             /* FSiAdminBundle */
@@ -21,7 +22,6 @@ class AppKernel extends Kernel
             new FSi\Bundle\DataGridBundle\DataGridBundle(),
             new FSi\Bundle\AdminBundle\FSiAdminBundle(),
             new FSi\Bundle\GalleryBundle\FSiGalleryBundle(),
-            new FSi\Bundle\FormExtensionsBundle\FSiFormExtensionsBundle(),
 
             new FSi\Bundle\AdminGalleryBundle\FSiAdminGalleryBundle(),
             new FSi\FixturesBundle\FSiFixturesBundle(),

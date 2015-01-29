@@ -38,7 +38,7 @@ class FSiAdminGallerySpec extends ObjectBehavior
             )
         ))->shouldBeCalled();
 
-        $builder->add('description', 'fsi_ckeditor', array(
+        $builder->add('description', 'ckeditor', array(
             'label' => 'admin.gallery.form.description.label'
         ))->shouldBeCalled();
 
