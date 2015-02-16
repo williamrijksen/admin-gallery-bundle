@@ -23,6 +23,7 @@
         "doctrine/doctrine-bundle": "dev-master",
         "doctrine/orm": "~2.3",
         "fzaninotto/faker": "v1.3.0",
+        "symfony/validator": "~2.3",
         "phpspec/phpspec": "2.0.*@dev",
         "behat/behat": "~2.4",
         "behat/symfony2-extension": "~1.1",
