@@ -14,8 +14,8 @@
     <services>
         <service id="fsi_admin_gallery.admin.gallery" class="%fsi_admin_gallery.admin.gallery.class%">
             <argument type="collection">
-                <argument key="template_crud_create">@FSiAdminGallery/Gallery/create.html.twig</argument>
-                <argument key="template_crud_edit">@FSiAdminGallery/Gallery/edit.html.twig</argument>
+                <argument key="template_crud_create">@FSiAdminGallery/Gallery/form.html.twig</argument>
+                <argument key="template_crud_edit">@FSiAdminGallery/Gallery/form.html.twig</argument>
             </argument>
             <argument>%fsi_gallery.gallery_class%</argument>
             <tag name="admin.element" />

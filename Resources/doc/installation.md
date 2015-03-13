@@ -6,10 +6,7 @@ Add to composer.json
 
 ```
 "require": {
-    "fsi/gallery-bundle": "1.0.*@dev",
-    "fsi/admin-gallery-bundle": "1.0.*@dev",
-    "liip/imagine-bundle": "0.20.*",
-    "doctrine/doctrine-bundle": "dev-master"
+    "fsi/admin-gallery-bundle": "1.1.*@dev"
 }
 ```
 
@@ -25,8 +22,8 @@ public function registerBundles()
         // Bundles required by FSiGalleryBundle
         new Liip\ImagineBundle\LiipImagineBundle(),
         new Knp\Bundle\GaufretteBundle\KnpGaufretteBundle(),
-        new FSi\Bundle\DoctrineExtensionsBundle\FSiDoctrineExtensionsBundle(),
         new WhiteOctober\PagerfantaBundle\WhiteOctoberPagerfantaBundle(),
+        new Ivory\CKEditorBundle\IvoryCKEditorBundle(),
 
         // FSiGalleryBundle
         new FSi\Bundle\GalleryBundle\FSiGalleryBundle(),
@@ -38,3 +35,15 @@ public function registerBundles()
 ## 3. Install FSiGalleryBundle
 
 [FSiGallerBundle - Installation](https://github.com/fsi-open/gallery-bundle/blob/master/Resources/doc/installation.md)
+
+## 4. Add the bundle to the admin_menu.yml
+
+Since the bundle now uses FSiAdminBundle 1.1, you need to add it to the menu configuration
+file (```app\config\admin_menu.yml```):
+
+```
+    menu:
+        - { id: gallery, name: admin.gallery.menu }
+```
+
+Where ```id``` is the id of the admin element, and ```name``` is the translation key.
