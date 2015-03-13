@@ -12,15 +12,15 @@
     ],
     "require": {
         "php": ">=5.3.3",
+        "doctrine/orm": "~2.3",
+        "doctrine/doctrine-bundle": "dev-master",
         "symfony/framework-bundle": "~2.3",
         "symfony/twig-bundle": "~2.3",
         "egeloen/ckeditor-bundle": "~2.0",
-        "fsi/admin-bundle" : "1.0.*",
+        "fsi/admin-bundle" : "1.1.x-dev",
         "fsi/gallery-bundle": "1.1.*"
     },
     "require-dev": {
-        "doctrine/doctrine-bundle": "dev-master",
-        "doctrine/orm": "~2.3",
         "fzaninotto/faker": "v1.3.0",
         "symfony/validator": "~2.3",
         "phpspec/phpspec": "2.0.*@dev",
@@ -44,7 +44,7 @@
     "target-dir" : "FSi/Bundle/AdminGalleryBundle",
     "extra": {
         "branch-alias": {
-            "dev-master": "1.0-dev"
+            "dev-master": "1.1-dev"
         }
     }
 }
